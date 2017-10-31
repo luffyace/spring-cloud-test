@@ -2,9 +2,6 @@ logging:
   level:
     org.springframework.cloud.netflix.zuul.filters.post.SendErrorFilter: error
 
-server:
-  port: 8040
-
 turbine:
   stream:
     port: 8041
